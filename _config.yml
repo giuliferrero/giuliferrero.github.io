@@ -11,7 +11,7 @@ title                    : "Giulia Ferrero"
 title_separator          : "-"
 name                     : &name "Giulia Ferrero"
 description              : &description "Economist"
-url                      : https://giuliaferrero.github.io
+url                      : https://giuliferrero.github.io
 repository               : "giuliferrero/giuliaferrero.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
