@@ -5,15 +5,15 @@ permalink: /
 author_profile: true
 ---
 
-Welcome!
+**Welcome!**
 
-I am a PhD candidate at the University of Turin and a Phd fellow at Collegio
+I am a PhD student at the University of Turin and a Phd fellow at Collegio
 Carlo Alberto, working under the supervision of [Elena Esposito](https://www.elenaesposito.com/) and [Giovanni Mastrobuoni](https://sites.google.com/site/giovannimastrobuoni/).
 
 I am an applied micro-economist specializing in economic history, media, and development
-economics — with a particular focus on gender-related issues. 
+economics with a particular focus on gender. 
 
-My research examines howsocietal and cultural norms around women evolve, particularly in response to historical and
+My research examines how societal and cultural norms around women evolve, particularly in response to historical and
 contemporary events, including conflicts as potential catalysts for change. I analyze narratives
 using archival media sources such as newspapers, women’s magazines, and movies.
 
