@@ -17,13 +17,13 @@ author_profile: true
 
 Working papers
 --
-**Shaping Women’s Roles: How Wartime Narratives impact Gender Norms**<br>JMP
+- **Shaping Women’s Roles: How Wartime Narratives impact Gender Norms**<br>JMP
 
 <br>
-<br>
 
 
-**Sons of War: the Interplay Between Conflict and Gender Norms**<br>*(with Jessica Mancuso)* 
+
+- **Sons of War: the Interplay Between Conflict and Gender Norms**<br>*(with Jessica Mancuso)* 
 
 <details>
   <summary>abstract</summary>
@@ -32,8 +32,8 @@ Working papers
 </details>
 
 <br>
-<br>
+
 
 Work in progress
 --
-**Tracking narratives in the movie industry**<br>*(with Elena Esposito and Alessandro Saia)*
+- **Tracking narratives in the movie industry**<br>*(with Elena Esposito and Alessandro Saia)*
