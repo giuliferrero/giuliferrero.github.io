@@ -21,4 +21,4 @@ I hold a Master’s degree in Economics from the University of Bologna.
 
 You can find my CV [here](https://www.dropbox.com/scl/fi/c6ei4qjv68oxd9aasa357/CV_Ferrero_2025.pdf?rlkey=3rdihh85jyylpcumom0hha3mr&st=w8rx0tmy&dl=0)
 
-Contact: giulia.ferrero@carloalberto.org
+Contact: [giulia.ferrero@carloalberto.org](mailto:giulia.ferrero@carloalberto.org)
