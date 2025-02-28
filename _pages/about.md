@@ -15,7 +15,7 @@ economics with a particular focus on gender.
 
 My research examines how societal and cultural norms around women evolve, particularly in response to historical and
 contemporary events, including conflicts as potential catalysts for change. I analyze narratives
-using archival media sources such as newspapers, women’s magazines, and movies.
+using archival media sources such as newspapers, magazines, and movies.
 
 I hold a M.Sc. in Economics from the University of Bologna.
 
