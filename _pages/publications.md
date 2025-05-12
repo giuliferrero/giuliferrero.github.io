@@ -17,7 +17,7 @@ author_profile: true
 
 Working papers
 --
-- Shaping Women’s Roles: How Wartime Narratives impact Gender Norms<br>JMP
+- Wartime Narratives and Gender Norms<br>JMP
 
 
 
