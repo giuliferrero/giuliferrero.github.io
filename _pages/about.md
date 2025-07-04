@@ -19,6 +19,16 @@ using archival media sources such as newspapers, magazines, and movies.
 
 I hold a M.Sc. in Economics from the University of Bologna.
 
+<br>
+
+**NEWs**
+
+My Job Market Paper on *Wartime Narratives and Gender Norms* was awarded the [2025 Mixtape Fellowship](https://www.mixtapesessions.io/about/).
+
+I was awarded the [CID Visiting Researcher Fellowship](https://www.hks.harvard.edu/centers/cid/about-cid/jobs-opportunities/cid-visiting-researcher-program) and will join the **Center for International Development at the Harvard Kennedy School** in Fall 2025.
+
+<br><br>
+
 You can find my CV [here](https://www.dropbox.com/scl/fi/c6ei4qjv68oxd9aasa357/CV_Ferrero_2025.pdf?rlkey=3rdihh85jyylpcumom0hha3mr&st=w8rx0tmy&dl=0)
 
 Contact: [giulia.ferrero@carloalberto.org](mailto:giulia.ferrero@carloalberto.org)
