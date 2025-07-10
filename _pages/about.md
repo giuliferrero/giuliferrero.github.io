@@ -25,7 +25,7 @@ I hold a M.Sc. in Economics from the University of Bologna.
 
 My Job Market Paper on *Wartime Narratives and Gender Norms* was awarded the [2025 Mixtape Fellowship](https://www.mixtapesessions.io/about/).
 
-I was awarded the [CID Visiting Researcher Fellowship](https://www.hks.harvard.edu/centers/cid/about-cid/jobs-opportunities/cid-visiting-researcher-program) and will join the **Center for International Development at the Harvard Kennedy School** in Fall 2025.
+I was awarded the [CID Visiting Researcher Fellowship](https://www.hks.harvard.edu/centers/cid/about-cid/jobs-opportunities/cid-visiting-researcher-program) and will join the **Center for International Development at the Harvard Kennedy School** in Spring 2026 (January/April).
 
 <br><br>
 
