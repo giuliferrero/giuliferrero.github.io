@@ -31,4 +31,4 @@ Armenia and Azerbaijan, engaged in the Nagorno-Karabakh conflict, are known for 
 
 Work in progress
 --
-- Narratives and Movies <br>*(with Elena Esposito and Alessandro Saia)*
+- Narratives and Movies <br>*(with Elena Esposito, Tiziano Rotesi and Alessandro Saia)*
