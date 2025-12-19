@@ -41,7 +41,7 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-.page__content .research-item  {
+.research-item {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -49,18 +49,19 @@
   margin-bottom: 3rem;
 }
 
-.page__content .research-text  {
+.research-text {
   flex: 1;
 }
 
-..page__content .research-image  {
+.research-image {
   flex-shrink: 0;
 }
 
-..page__content .research-image  img {
-  width: 180px;        /* controls size */
+.research-image img {
+  width: 180px;
   max-width: 180px;
   height: auto;
   border-radius: 6px;
   filter: grayscale(100%);
 }
+
