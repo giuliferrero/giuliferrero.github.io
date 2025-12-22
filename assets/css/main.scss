@@ -65,3 +65,12 @@
   filter: grayscale(100%);
 }
 
+.archive__item-content .research-item {
+  align-items: flex-start;
+}
+
+.archive__item-content details {
+  margin-top: 0.5rem;
+}
+
+
