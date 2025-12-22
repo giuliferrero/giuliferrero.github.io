@@ -60,9 +60,9 @@
 }
 
 .research-image img {
-  width: 180px;
-  max-width: 180px;
+  width: 220px;        /* slightly bigger */
+  max-width: 220px;
   height: auto;
-  border-radius: 6px;
-  filter: grayscale(100%);
+  border-radius: 8px; /* optional: a bit softer */
 }
+
