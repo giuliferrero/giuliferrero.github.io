@@ -5,7 +5,9 @@ permalink: /Research/
 author_profile: true
 ---
 <div class="research-item">
-
+  <div class="research-image">
+    <img src="/images/frontcover.png" alt="Paper illustration">
+  </div>
   <div class="research-text">
 
   <h3 style="margin-top:0;">
@@ -49,9 +51,7 @@ author_profile: true
 
   </div>
 
-  <div class="research-image">
-    <img src="/images/frontcover.png" alt="Paper illustration">
-  </div>
+  
 
 </div>
 
