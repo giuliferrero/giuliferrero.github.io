@@ -41,7 +41,9 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-.archive__item-content .research-item {
+/* ===== Research page papers layout ===== */
+
+.research-item {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -49,28 +51,18 @@
   margin-bottom: 3rem;
 }
 
-.archive__item-content .research-text {
+.research-text {
   flex: 1;
 }
 
-.archive__item-content .research-image {
+.research-image {
   flex-shrink: 0;
 }
 
-.archive__item-content .research-image img {
+.research-image img {
   width: 180px;
   max-width: 180px;
   height: auto;
   border-radius: 6px;
   filter: grayscale(100%);
 }
-
-.archive__item-content .research-item {
-  align-items: flex-start;
-}
-
-.archive__item-content details {
-  margin-top: 0.5rem;
-}
-
-
