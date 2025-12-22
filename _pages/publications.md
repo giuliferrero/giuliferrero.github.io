@@ -60,56 +60,50 @@ author_profile: true
 
 <br><br>
 <div class="research-item">
-  <div class="research-badge">
-  <i class="fa-solid fa-bookmark"></i>
+
+  <div class="research-thumb">
+    <i class="fa-solid fa-bookmark"></i>
+  </div>
+
+  <div class="research-text">
+
+  <h3>Sons of War: the Effect of Conflict on Son Preference</h3>
+
+  <p class="coauthors">With Jessica Mancuso</p>
+
+  <p class="venue">
+    Awarded the Grigor Artsruni Award at the Armenian Economic Association Conference (Yerevan)
+  </p>
+
+  <details>
+    <summary>Abstract</summary>
+    <p>Armenia and Azerbaijan, engaged in the Nagorno-Karabakh conflict…</p>
+  </details>
+
+  <details>
+    <summary>Presentations</summary>
+    <p>5th DevEconMeet 2025…</p>
+  </details>
+
+  </div>
 </div>
 
-<div class="research-text">
-<h3>
-Sons of War: the Effect of Conflict on Son Preference
-</h3>
-
-<p class="coauthors">
-With Jessica Mancuso
-</p>
-
-<p class="venue">
-Awarded the Grigor Artsruni Award at the Armenian Economic Association Conference (Yerevan)
-</p>
-
-
-<details>
-<summary>Abstract</summary>
-<p>
-Armenia and Azerbaijan, engaged in the Nagorno-Karabakh conflict, are known for their strong son preference and widespread use of abortion. In such a peculiar setting, we ask: does ethnic conflict affect son preference? By merging Demographic and Health Survey (DHS) data with two different sources of conflict-related casualties, we investigate the effect of ethnic conflict on fertility decisions. To do so, we leverage variations in geographic and temporal exposure to conflict-related violence in the context of the First Nagorno-Karabakh War (1988–1994), alongside variation in the gender composition of children between families. We find that families with only daughters exposed to conflict increase their fertility in the very short term. Furthermore, our analysis of births by gender reveals that this result is driven by the birth of sons. Conflict intensifies son preference, manifesting in son-targeted fertility behavior and sex-selective abortions. Lastly, we identify child replacement as a mechanism contributing to the increase in fertility, driven primarily by the replacement of male children.
-</p>
-</details>
-
-<details>
-<summary>Presentations</summary>
-<p>
-<strong>Presented at:</strong>
-5th DevEconMeet 2025 (University of Florence)*; Fragile Lives 2025; Armenian
-Economic Association 2025 Conference*; Mend the Gap 2025 (World Bank,
-Bocconi, EIEF)*; BAEM 2025; Collegio Carlo Alberto PhD Forum<br>
-<em>* indicates presentation by co-author</em>
-</p>
-</details>
-</div>
-</div>
 
 <br><br><br><br>
 <h2>Work in progress</h2>
 
 <div class="research-item">
-<div class="research-badge">
-<i class="fa-solid fa-bookmark"></i>
+
+  <div class="research-thumb">
+    <i class="fa-solid fa-bookmark"></i>
+  </div>
+
+  <div class="research-text">
+    <h3>Narratives and Movies</h3>
+    <p class="coauthors">
+      With Elena Esposito, Tiziano Rotesi and Alessandro Saia
+    </p>
+  </div>
+
 </div>
 
-<div class="research-text">
-<h3>Narratives and Movies</h3>
-<p class="coauthors">
-With Elena Esposito, Tiziano Rotesi and Alessandro Saia
-</p>
-</div>
-</div>
