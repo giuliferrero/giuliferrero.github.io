@@ -66,3 +66,20 @@
   border-radius: 8px; /* optional: a bit softer */
 }
 
+/* ===== Overall scale for research items ===== */
+
+.research-item {
+  font-size: 0.95rem;       /* scales everything down slightly */
+  margin-bottom: 2.5rem;
+}
+
+.research-item h3 {
+  font-size: 1.05rem;      /* smaller titles */
+  margin-bottom: 0.3rem;
+}
+
+.research-item p {
+  margin-bottom: 0.4rem;
+}
+
+
