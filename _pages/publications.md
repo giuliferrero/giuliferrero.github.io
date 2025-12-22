@@ -4,6 +4,8 @@ title: " "
 permalink: /Research/
 author_profile: true
 ---
+<h2>Working papers</h2>
+
 <div class="research-item">
   <div class="research-image">
     <img src="/images/frontcover.png" alt="Paper illustration">
@@ -58,6 +60,10 @@ author_profile: true
 
 <br><br>
 <div class="research-item">
+  <div class="research-badge">
+  <i class="fa-solid fa-bookmark"></i>
+</div>
+
 <div class="research-text">
 <h3>
 Sons of War: the Effect of Conflict on Son Preference
@@ -96,6 +102,10 @@ Bocconi, EIEF)*; BAEM 2025; Collegio Carlo Alberto PhD Forum<br>
 <h2>Work in progress</h2>
 
 <div class="research-item">
+<div class="research-badge">
+<i class="fa-solid fa-bookmark"></i>
+</div>
+
 <div class="research-text">
 <h3>Narratives and Movies</h3>
 <p class="coauthors">
