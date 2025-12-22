@@ -60,8 +60,8 @@
 }
 
 .research-image img {
-  width: 220px;        /* slightly bigger */
-  max-width: 220px;
+  width: 200px;        /* slightly bigger */
+  max-width: 200px;
   height: auto;
   border-radius: 8px; /* optional: a bit softer */
 }
@@ -82,4 +82,30 @@
   margin-bottom: 0.4rem;
 }
 
+.research-item {
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.research-item::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0.15rem;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: #555; /* soft gray */
+}
+
+.coauthors {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.1rem;
+  margin-bottom: 0.4rem;
+}
+
+.details summary {
+  font-size: 0.9rem;
+  color: #444;
+}
 
