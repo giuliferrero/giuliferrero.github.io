@@ -51,6 +51,9 @@ author_profile: true
 
 </p>
 </details>
+<div class="paper-image">
+    <img src="/images/frontcover.png" alt="Paper illustration">
+</div>
 </div>
 
 <br><br>
