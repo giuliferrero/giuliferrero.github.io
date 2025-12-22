@@ -87,25 +87,49 @@
   padding-left: 1.2rem;
 }
 
-.research-item::before {
+/* Dot aligned with the title/text column */
+.research-text {
+  position: relative;
+  padding-left: 1.1rem; /* space for dot */
+}
+
+.research-text::before {
   content: "•";
   position: absolute;
   left: 0;
-  top: 0.15rem;
-  font-size: 1.2rem;
+  top: 0.2rem;          /* aligns with title baseline */
+  font-size: 1.15rem;
   line-height: 1;
-  color: #555; /* soft gray */
+  color: #555;
 }
 
 .coauthors {
   font-size: 0.85rem;
   color: #666;
-  margin-top: 0.1rem;
-  margin-bottom: 0.4rem;
+  margin: 0.15rem 0 0.5rem;
 }
 
+
 .details summary {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color: #444;
 }
+
+.research-badge {
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+  border: 1px solid #e8e8e8;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.research-badge i {
+  font-size: 1.6rem;
+  color: #666;
+}
+
 
