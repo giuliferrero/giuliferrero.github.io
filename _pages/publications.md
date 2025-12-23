@@ -2,7 +2,7 @@
 layout: archive
 title: " "
 permalink: /Research/
-author_profile: true
+author_profile: false
 ---
 <h2>Working papers</h2>
 
@@ -48,7 +48,7 @@ author_profile: true
 
   <details>
     <summary>Presentations</summary>
-    <p><strong>Presented at:</strong></p>
+    <p>Third Political Economy CCA-Cornell-Bocconi Winter Workshop (poster)</p>
   </details>
 
   </div>
@@ -73,18 +73,20 @@ author_profile: true
   
   <p class="coauthors">With Jessica Mancuso</p>
 
-  <p class="venue">
+  <p style="font-style:italic; margin-top:0.25rem;">
     Awarded the Grigor Artsruni Award at the Armenian Economic Association Conference (Yerevan)
   </p>
-
+  </p>
   <details>
     <summary>Abstract</summary>
-    <p>Armenia and Azerbaijan, engaged in the Nagorno-Karabakh conflict…</p>
+    <p>Armenia and Azerbaijan, engaged in the Nagorno-Karabakh conflict, are known for their strong son preference and widespread use of abortion. In such a peculiar setting, we ask: does ethnic conflict affect son preference? By merging Demographic and Health Survey (DHS) data with two different sources of conflict-related casualties, we investigate the effect of ethnic conflict on fertility decisions. To do so, we leverage variations in geographic and temporal exposure to conflict-related violence in the context of the First Nagorno-Karabakh War (1988–1994), alongside variation in the gender composition of children between families. We find that families with only daughters exposed to conflict increase their fertility in the very short term. Furthermore, our analysis of births by gender reveals that this result is driven by the birth of sons. Conflict intensifies son preference, manifesting in son-targeted fertility behavior and sex-selective abortions. Lastly, we identify child replacement as a mechanism contributing to the increase in fertility, driven primarily by the replacement of male children. </p>
   </details>
 
   <details>
     <summary>Presentations</summary>
-    <p>5th DevEconMeet 2025…</p>
+    <p>5th DevEconMeet, 2025 (University of Florence)*; Fragile Lives 2025 (International Security and Development Center); ArmEA 2025 (American University of Armenia)*; 2025 Mend the Gap in Economic Opportunities in Europe and Central Asia (World Bank, Axa Gender Lab at Bocconi University & EIEF)*; 2025 BAEM (Bristol Applied Economics Meetings) Workshop on Gender, Diversity and Human Capital; 2024 FROGEE Academic Conference (SSE); IELM-DD Internal Seminar (Centre d' Économie  de la Sorbonne) 
+<br>
+*indicates presentation by co-author</p>
   </details>
 
   </div>
