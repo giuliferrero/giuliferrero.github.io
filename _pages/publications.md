@@ -60,9 +60,8 @@ author_profile: false
 
 <br><br>
 <div class="research-item">
-
-  <div class="research-thumb">
-    <i class="fa-solid fa-bookmark"></i>
+  <div class="research-image">
+    <img src="/images/amaz.jpg" alt="Paper illustration">
   </div>
 
   <div class="research-text">
