@@ -67,8 +67,10 @@ author_profile: true
 
   <div class="research-text">
 
-  <h3>Sons of War: the Effect of Conflict on Son Preference</h3>
-
+  <h3 style="margin-top:0;">
+    Sons of War: the Effect of Conflict on Son Preference</h3>
+  </h3>
+  
   <p class="coauthors">With Jessica Mancuso</p>
 
   <p class="venue">
