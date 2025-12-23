@@ -68,7 +68,7 @@ author_profile: true
   <div class="research-text">
 
   <h3 style="margin-top:0;">
-    Sons of War: the Effect of Conflict on Son Preference</h3>
+    Sons of War: the Effect of Conflict on Son Preference
   </h3>
   
   <p class="coauthors">With Jessica Mancuso</p>
@@ -101,7 +101,9 @@ author_profile: true
   </div>
 
   <div class="research-text">
-    <h3>Narratives and Movies</h3>
+     <h3 style="margin-top:0;">
+    Narratives and Movies
+    </h3>
     <p class="coauthors">
       With Elena Esposito, Tiziano Rotesi and Alessandro Saia
     </p>
