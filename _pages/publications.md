@@ -67,7 +67,10 @@ author_profile: false
     Sons of War: the Effect of Conflict on Son Preference
   </h3>
   
-  <p class="coauthors">With Jessica Mancuso</p>
+   <p class="coauthors">
+    With <a href="https://www.jessicamancuso.com/" target="_blank" rel="noopener">Jessica Mancuso</a>
+  </p>
+
 
   <p style="font-style:italic; margin-top:0.25rem;">
     Awarded the Grigor Artsruni Award at the Armenian Economic Association Conference (Yerevan)
@@ -103,8 +106,13 @@ author_profile: false
     Narratives and Movies
     </h3>
     <p class="coauthors">
-      With Elena Esposito, Tiziano Rotesi and Alessandro Saia
+    With
+    <a href="https://www.elenaesposito.com/" target="_blank" rel="noopener">Elena Esposito</a>,
+    <a href="https://www.tizianorotesi.com/" target="_blank" rel="noopener">Tiziano Rotesi</a>
+    and
+    <a href="https://sites.google.com/site/asaia9585/alessandro-saia" target="_blank" rel="noopener">Alessandro Saia</a>
     </p>
+
   </div>
 
 </div>
