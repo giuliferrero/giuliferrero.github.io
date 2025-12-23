@@ -56,8 +56,8 @@
 
 .research-image,
 .research-badge {
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   flex-shrink: 0;
   border-radius: 8px;
   overflow: hidden;        /* crops images cleanly */
@@ -66,10 +66,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.research-item {
-  align-items: flex-start;
 }
 
 .research-image,
@@ -141,7 +137,7 @@
 }
 
 /* Venue / awards / italics */
-.details p {
+details p {
   font-size: 0.83rem;
   line-height: 1.5;
 }
@@ -156,16 +152,16 @@
 
 
 /* Abstract / presentations toggles */
-.details summary {
+details summary {
   font-size: 0.78rem;
   color: #666;
 }
 
-.details[open] summary {
+details[open] summary {
   color: #444;
 }
 
-.details p {
+details p {
   font-size: 0.83rem;
   line-height: 1.5;
 }
@@ -178,9 +174,8 @@
   }
 
   .research-image,
-   .research-badge {
-     width: 120px;
-     height: 130px;
-   }
-
+  .research-badge {
+    width: 110px;
+    height: 110px;
+  }
 }
