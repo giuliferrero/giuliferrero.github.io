@@ -17,7 +17,7 @@ author_profile: false
   </h3>
 
   <p class="venue">
-    Awarded the 2025 Mixtape Fellowship
+    Awarded the 2025 Mixtape Fellowship by Scott Cunningham
   </p>
 
   <details>
