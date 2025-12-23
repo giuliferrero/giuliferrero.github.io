@@ -55,7 +55,7 @@ author_profile: false
 
 </div>
 
-<br>
+
 <div class="research-item">
   <div class="research-image">
     <img src="/images/amaz.jpg" alt="Paper illustration">
@@ -89,7 +89,7 @@ author_profile: false
 </div>
 
 
-<br><br>
+<br>
 <h2>Work in progress</h2>
 
 <div class="research-item">
