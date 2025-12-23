@@ -47,8 +47,8 @@
   display: flex;
   align-items: flex-start;
   gap: 1.4rem;
-  margin-bottom: 2rem;
-  font-size: 0.92rem;       /* overall smaller, elegant */
+  margin-bottom: 2.4rem;
+  font-size: 0.88rem;   /* was 0.92 → smaller */
   line-height: 1.45;
 }
 
@@ -73,9 +73,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 5px;
-  filter: brightness(0.98) saturate(0.8);
+  filter: brightness(0.95) saturate(0.8);
 }
+
 
 /* Bookmark icon */
 .research-badge i {
@@ -103,10 +103,11 @@
 
 /* Titles */
 .research-text h3 {
-  font-size: 1.02rem;
+  font-size: 0.98rem;   /* was ~1.02 */
   font-weight: 500;
-  margin: 0 0 0.25rem 0;
+  margin: 0 0 0.2rem 0;
 }
+
 
 /* Paragraph spacing */
 .research-text p {
@@ -121,17 +122,19 @@
 }
 
 /* Venue / awards / italics */
-.venue,
-.research-text p em {
-  font-size: 0.85rem;
-  color: #555;
+.details p {
+  font-size: 0.83rem;
+  line-height: 1.5;
 }
 
 /* Abstract / presentations toggles */
-details summary {
-  font-size: 0.85rem;
-  color: #444;
-  cursor: pointer;
+.details summary {
+  font-size: 0.8rem;
+  color: #555;
+}
+.details p {
+  font-size: 0.83rem;
+  line-height: 1.5;
 }
 
 /* ===== Mobile ===== */
@@ -142,8 +145,9 @@ details summary {
   }
 
   .research-image,
-  .research-badge {
-    width: 80px;
-    height: 80px;
-  }
+   .research-badge {
+     width: 120px;
+     height: 130px;
+   }
+
 }
