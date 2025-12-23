@@ -47,7 +47,7 @@
   display: flex;
   align-items: flex-start;
   gap: 1.4rem;
-  margin-bottom: 2.4rem;
+  margin-bottom: 2rem;
   font-size: 0.92rem;       /* overall smaller, elegant */
   line-height: 1.45;
 }
@@ -73,8 +73,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 8px;
-  filter: brightness(0.97) saturate(0.88);
+  border-radius: 5px;
+  filter: brightness(0.98) saturate(0.8);
 }
 
 /* Bookmark icon */
