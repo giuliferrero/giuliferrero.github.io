@@ -68,6 +68,15 @@
   justify-content: center;
 }
 
+.research-item {
+  align-items: flex-start;
+}
+
+.research-image,
+.research-badge {
+  margin-top: 0.15rem;
+}
+
 /* Images: same size, softer colors */
 .research-image img {
   width: 100%;
@@ -103,22 +112,32 @@
 
 /* Titles */
 .research-text h3 {
-  font-size: 0.98rem;   /* was ~1.02 */
+  font-size: 0.98rem;
   font-weight: 500;
-  margin: 0 0 0.2rem 0;
+}
+
+.research-text h3 span.jmp {
+  font-weight: 400;
+  font-size: 0.9em;
+  color: #666;
 }
 
 
 /* Paragraph spacing */
 .research-text p {
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.25rem;
 }
 
 /* Coauthors */
-.coauthors {
-  font-size: 0.82rem;
-  color: #666;
-  margin: 0.1rem 0 0.35rem;
+.coauthors a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted #bbb;
+}
+
+.coauthors a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #666;
 }
 
 /* Venue / awards / italics */
@@ -127,11 +146,25 @@
   line-height: 1.5;
 }
 
+.venue {
+  font-size: 0.72rem;   /* clearly smaller */
+  font-style: italic;
+  color: #888;
+  margin-top: 0.1rem;
+  margin-bottom: 0.3rem;
+}
+
+
 /* Abstract / presentations toggles */
 .details summary {
-  font-size: 0.8rem;
-  color: #555;
+  font-size: 0.78rem;
+  color: #666;
 }
+
+.details[open] summary {
+  color: #444;
+}
+
 .details p {
   font-size: 0.83rem;
   line-height: 1.5;
