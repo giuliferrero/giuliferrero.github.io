@@ -41,95 +41,109 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-/* ===== Research page papers layout ===== */
+/* ===== Research items: layout ===== */
 
 .research-item {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
-  gap: 2rem;
-  margin-bottom: 3rem;
+  gap: 1.4rem;
+  margin-bottom: 2.4rem;
+  font-size: 0.92rem;       /* overall smaller, elegant */
+  line-height: 1.45;
 }
+
+/* ===== Left column: image OR bookmark ===== */
+
+.research-image,
+.research-badge {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;        /* crops images cleanly */
+  background: #fafafa;
+  border: 1px solid #e6e6e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Images: same size, softer colors */
+.research-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  filter: brightness(0.97) saturate(0.88);
+}
+
+/* Bookmark icon */
+.research-badge i {
+  font-size: 1.35rem;
+  color: #777;
+}
+
+/* ===== Text column ===== */
 
 .research-text {
   flex: 1;
-}
-
-.research-image {
-  flex-shrink: 0;
-}
-
-.research-image img {
-  width: 200px;        /* slightly bigger */
-  max-width: 200px;
-  height: auto;
-  border-radius: 8px; /* optional: a bit softer */
-}
-
-/* ===== Overall scale for research items ===== */
-
-.research-item {
-  font-size: 0.95rem;       /* scales everything down slightly */
-  margin-bottom: 2.5rem;
-}
-
-.research-item h3 {
-  font-size: 1.05rem;      /* smaller titles */
-  margin-bottom: 0.3rem;
-}
-
-.research-item p {
-  margin-bottom: 0.4rem;
-}
-
-.research-item {
   position: relative;
-  padding-left: 1.2rem;
+  padding-left: 1.05rem;   /* space for dot */
 }
 
-/* Dot aligned with the title/text column */
-.research-text {
-  position: relative;
-  padding-left: 1.1rem; /* space for dot */
-}
-
+/* Dot aligned with title */
 .research-text::before {
   content: "•";
   position: absolute;
   left: 0;
-  top: 0.2rem;          /* aligns with title baseline */
-  font-size: 1.15rem;
-  line-height: 1;
+  top: 0.22rem;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Titles */
+.research-text h3 {
+  font-size: 1.02rem;
+  font-weight: 500;
+  margin: 0 0 0.25rem 0;
+}
+
+/* Paragraph spacing */
+.research-text p {
+  margin-bottom: 0.35rem;
+}
+
+/* Coauthors */
+.coauthors {
+  font-size: 0.82rem;
+  color: #666;
+  margin: 0.1rem 0 0.35rem;
+}
+
+/* Venue / awards / italics */
+.venue,
+.research-text p em {
+  font-size: 0.85rem;
   color: #555;
 }
 
-.coauthors {
+/* Abstract / presentations toggles */
+details summary {
   font-size: 0.85rem;
-  color: #666;
-  margin: 0.15rem 0 0.5rem;
-}
-
-
-.details summary {
-  font-size: 0.7rem;
   color: #444;
+  cursor: pointer;
 }
 
-.research-badge {
-  width: 110px;
-  height: 110px;
-  border-radius: 10px;
-  border: 1px solid #e8e8e8;
-  background: #fafafa;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
+/* ===== Mobile ===== */
+
+@media (max-width: 768px) {
+  .research-item {
+    gap: 1rem;
+  }
+
+  .research-image,
+  .research-badge {
+    width: 80px;
+    height: 80px;
+  }
 }
-
-.research-badge i {
-  font-size: 1.6rem;
-  color: #666;
-}
-
-
