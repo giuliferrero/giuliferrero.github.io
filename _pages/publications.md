@@ -13,10 +13,10 @@ author_profile: false
   <div class="research-text">
 
   <h3 style="margin-top:0;">
-    Wartime Narratives and Gender Norms (JMP)
+    Wartime Narratives and Gender Norms <span class="jmp">(JMP)</span>
   </h3>
 
-  <p style="font-style:italic; margin-top:0.25rem;">
+  <p class="venue">
     Awarded the 2025 Mixtape Fellowship
   </p>
 
@@ -72,7 +72,7 @@ author_profile: false
   </p>
 
 
-  <p style="font-style:italic; margin-top:0.25rem;">
+ <p class="venue">
     Awarded the Grigor Artsruni Award at the Armenian Economic Association Conference (Yerevan)
   </p>
 
