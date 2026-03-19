@@ -48,7 +48,7 @@ author_profile: false
 
   <details>
     <summary>Presentations</summary>
-    <p>Third Political Economy CCA-Cornell-Bocconi Winter Workshop (poster)</p>
+    <p>Graduate Workshop in Economic History at Harvard University, Third Political Economy CCA-Cornell-Bocconi Winter Workshop (poster)</p>
   </details>
 
   </div> 
@@ -83,7 +83,7 @@ author_profile: false
 
   <details>
     <summary>Presentations</summary>
-    <p>5th DevEconMeet, 2025 (University of Florence)*; Fragile Lives 2025 (International Security and Development Center); ArmEA 2025 (American University of Armenia)*; 2025 Mend the Gap in Economic Opportunities in Europe and Central Asia (World Bank, Axa Gender Lab at Bocconi University & EIEF)*; 2025 BAEM (Bristol Applied Economics Meetings) Workshop on Gender, Diversity and Human Capital; 2024 FROGEE Academic Conference (SSE); IELM-DD Internal Seminar (Centre d' Économie  de la Sorbonne) 
+    <p>Harvard Development Lunch, 2026*; SAEe 2026 Symposium of the Spanish Economic Association (Universitat Autònoma de Barcelona)*, 5th DevEconMeet, 2025 (University of Florence)*; Fragile Lives 2025 (International Security and Development Center); ArmEA 2025 (American University of Armenia)*; 2025 Mend the Gap in Economic Opportunities in Europe and Central Asia (World Bank, Axa Gender Lab at Bocconi University & EIEF)*; 2025 BAEM (Bristol Applied Economics Meetings) Workshop on Gender, Diversity and Human Capital; 2024 FROGEE Academic Conference (SSE); IELM-DD Internal Seminar (Centre d' Économie  de la Sorbonne) 
 <br>
 *indicates presentation by co-author</p>
   </details>
