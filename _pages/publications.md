@@ -48,7 +48,7 @@ author_profile: false
 
   <details>
     <summary>Presentations</summary>
-    <p>Graduate Workshop in Economic History at Harvard University, Third Political Economy CCA-Cornell-Bocconi Winter Workshop (poster)</p>
+    <p>Graduate Workshop in Economic History at Harvard University, Harvard CID Research Xchange, Third Political Economy CCA-Cornell-Bocconi Winter Workshop (poster)</p>
   </details>
 
   </div> 
@@ -74,6 +74,10 @@ author_profile: false
 
  <p class="venue">
     Awarded the Grigor Artsruni Award at the Armenian Economic Association Conference (Yerevan)
+  </p>
+
+  <p class="venue">
+    Blog Post: <a href="https://www.hks.harvard.edu/centers/cid/voices/sons-war-how-ethnic-violence-strengthened-son-preference" target="_blank" rel="noopener">Harvard CID voices</a>
   </p>
 
   <details>
