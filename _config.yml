@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Giulia Ferrero"
   avatar           : "gf.jpeg"
-  bio              : "Economist"
+  bio              : "PhD student in Economics<br>University of Turin &amp; Collegio Carlo Alberto"
   location         : "Turin, Italy"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            :
+  email            : "giulia.ferrero@carloalberto.org"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -101,7 +101,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "giulia-ferrero-93b8441a3"
   orcid            : 
   pinterest        :
   soundcloud       :

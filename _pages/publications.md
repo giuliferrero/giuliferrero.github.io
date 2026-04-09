@@ -4,7 +4,7 @@ title: " "
 permalink: /Research/
 author_profile: false
 ---
-<h2>Working papers</h2>
+<h2 class="research-section-title">Working papers</h2>
 
 <div class="research-item">
   <div class="research-image">
@@ -23,32 +23,35 @@ author_profile: false
   <details>
     <summary>Abstract</summary>
     <p>
-      Can governments rapidly reshape social and gender norms through mass
-    media in response to large economic shocks? I focus on the U.S. home
-    front during World War II, when severe labor shortages prompted the
-    federal government to actively promote women’s employment through
-    nationwide media campaigns. To examine how this effort reshaped public
-    discourse, I construct a new dataset combining historical newspapers
-    with a newly digitized archive of women’s magazines, allowing the
-    tracing of changes in representations of women before, during, and
-    after the war. Exploiting local variation in war-induced labor
+      Governments have long used mass media narratives as a policy tool to
+    shape social norms and behavior, yet causal evidence on the effects of
+    such interventions remains scarce. This paper studies the case of the
+    U.S. government's coordinated media campaigns during World War II,
+    which deliberately reshaped the public image of women to address
+    wartime labor shortages. I construct a new dataset combining historical
+    newspapers with a newly digitized archive of women's magazines, which
+    allows to trace changes in representations of women before, during,
+    and after the war. Exploiting local variation in war-induced labor
     shortages and using an event-study design, I document a pronounced
     wartime shift toward portraying women as workers, followed by a rapid
-    retreat once the war ended. While these narratives were short-lived,
-    areas more exposed to wartime pressures experienced a more persistent
-    increase in the visibility of women in public discourse. I then examine
-    whether exposure to wartime narratives influenced postwar attitudes
-    toward women’s roles. Combining historical survey data with a
-    shift-share strategy based on magazine circulation and content, the
-    results suggest that institutional messaging can rapidly reshape social
-    narratives, with effects that may persist beyond the original economic
-    shock even as economic conditions revert.
+    reversal once the war ended. While this narrative was short-lived,
+    areas more exposed to wartime pressures experienced a persistent
+    increase in the visibility of women in public discourse. To isolate
+    the causal effect of media narratives from local labor market
+    conditions, I combine historical survey data with a shift-share
+    strategy based on magazine circulation and national changes in
+    content. Exposure to wartime narratives significantly shaped postwar
+    attitudes toward women's roles and political participation, with
+    effects that outlasted the economic shock itself. The results suggest
+    that institutional messaging can rapidly reshape social narratives,
+    even in non-authoritarian settings, with unintended consequences that
+    may persist beyond the original shock.
     </p>
   </details>
 
   <details>
     <summary>Presentations</summary>
-    <p>Graduate Workshop in Economic History at Harvard University, Harvard CID Research Xchange, Third Political Economy CCA-Cornell-Bocconi Winter Workshop (poster)</p>
+    <p>ESP Workshop at the Harvard Kennedy School, Graduate Workshop in Economic History at Harvard University, Harvard CID Research Xchange, Third Political Economy CCA-Cornell-Bocconi Winter Workshop (poster)</p>
   </details>
 
   </div> 
@@ -58,7 +61,7 @@ author_profile: false
 
 <div class="research-item">
   <div class="research-image">
-    <img src="/images/amaz.jpg" alt="Paper illustration">
+    <img src="/images/amaz.jpg" alt="Paper illustration" class="zoomed">
   </div>
 
   <div class="research-text">
@@ -97,11 +100,11 @@ author_profile: false
 
 
 <br>
-<h2>Work in progress</h2>
+<h2 class="research-section-title">Work in progress</h2>
 
 <div class="research-item">
 
-  <div class="research-thumb">
+  <div class="research-badge">
     <i class="fa-solid fa-bookmark"></i>
   </div>
 
