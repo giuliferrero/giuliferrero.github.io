@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Giulia Ferrero"
   avatar           : "gf.jpeg"
-  bio              : "PhD student in Economics<br>University of Turin &amp; Collegio Carlo Alberto"
+  bio              : "<span class='bio-title'>PhD student in Economics</span><br>University of Turin &amp; Collegio Carlo Alberto"
   location         : "Turin, Italy"
   employer         :
   pubmed           : 

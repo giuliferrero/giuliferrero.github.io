@@ -60,8 +60,8 @@ details summary, details p {
 
 /* ===== Accent color (petrol blue-green) ===== */
 
-$petrol: #1e6d7a;
-$petrol-dark: #134952;
+$petrol: #5e8c64;
+$petrol-dark: #44663f;
 
 a {
   color: $petrol;
@@ -76,7 +76,7 @@ a:focus {
 .page__content a,
 .home-content a {
   text-decoration: none;
-  border-bottom: 1px solid rgba(30, 109, 122, 0.25);
+  border-bottom: 1px solid rgba(94, 140, 100, 0.3);
   transition: border-color 0.15s ease;
 }
 
@@ -113,6 +113,7 @@ h4 {
 .masthead {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: none;
+  margin-bottom: 1cm;
 }
 
 .greedy-nav {
@@ -133,10 +134,10 @@ h4 {
 }
 
 .greedy-nav a {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   font-weight: 500;
   letter-spacing: 0.01em;
-  color: #333;
+  color: #666;
 }
 
 .greedy-nav a:hover {
@@ -144,9 +145,23 @@ h4 {
   background: transparent;
 }
 
-.site-title {
-  font-size: 0.95rem !important;
-  font-weight: 600;
+/* "Giulia Ferrero" name in nav: bold and black */
+.masthead__menu-item--lg a,
+.greedy-nav .masthead__menu-item--lg a {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+  letter-spacing: 0.05em;
+}
+
+.masthead__menu-item--lg a:hover {
+  color: $petrol !important;
+}
+
+/* Hide empty page titles so the image aligns with the first content line */
+.archive > .page__title,
+.page > .page__title {
+  display: none;
 }
 
 /* ===== Soft divider (home page) ===== */
@@ -183,15 +198,17 @@ hr.soft-divider {
 }
 
 
-/* ===== Author sidebar: bigger avatar ===== */
+/* ===== Author sidebar ===== */
 
-/* Sidebar: smaller avatar + centered content */
 .sidebar > * {
-  max-width: 300px !important;
+  max-width: 280px !important;
 }
 
 .author__avatar img {
-  max-width: 280px;
+  max-width: 260px;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 .sidebar .author__avatar,
@@ -199,43 +216,72 @@ hr.soft-divider {
   text-align: center;
 }
 
-.author__name,
+/* Hide name under picture */
+.author__name {
+  display: none !important;
+}
+
 .author__bio,
 .author__urls-wrapper {
   max-width: 280px !important;
   text-align: center !important;
 }
 
-.sidebar .author__name {
-  text-align: center !important;
-  width: 100%;
-  display: block;
-}
-
-.author__urls {
-  text-align: center;
-  padding-left: 0;
-  margin-top: 0.5rem;
-}
-
-/* Compressed social icons list */
-.author__urls li {
-  display: block;
-  text-align: left;
-  margin: 0 auto 0.15rem auto;  /* tighter vertical spacing */
-  width: fit-content;
-  font-size: 0.78rem;
-  line-height: 1.3;
-}
-
-.author__urls li a {
-  padding: 0.15rem 0;
-}
-
 .author__bio {
   line-height: 1.4;
   font-size: 0.85rem;
   color: #444;
+  margin-top: 0.6rem;
+}
+
+/* Hide Follow button */
+.author__urls-wrapper .btn,
+.author__urls-wrapper button {
+  display: none !important;
+}
+
+/* Social icons: only email, linkedin, twitter — horizontal, icons only */
+.author__urls {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  padding-left: 0;
+  margin-top: 0.9rem;
+  list-style: none;
+}
+
+/* Hide all list items by default, then show only the ones we want */
+.author__urls li {
+  display: none !important;
+}
+
+.author__urls li:has(.fa-envelope),
+.author__urls li:has(.fa-linkedin),
+.author__urls li:has(.fa-x-twitter),
+.author__urls li:has(.fa-twitter) {
+  display: inline-block !important;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+/* Hide the text labels next to the icons */
+.author__urls li a {
+  font-size: 0 !important;
+  padding: 0;
+  border-bottom: none !important;
+  color: #555;
+}
+
+.author__urls li a i {
+  font-size: 1.2rem !important;
+  padding-right: 0 !important;
+  color: #555;
+}
+
+.author__urls li a:hover i {
+  color: $petrol;
 }
 
 /* ===== Centered layout: sidebar + content as one centered block ===== */
@@ -243,24 +289,37 @@ hr.soft-divider {
 @media screen and (min-width: 1024px) {
   /* Total desired layout width: 300 (sidebar) - 120 (overlap) + 620 (content) = 800 */
 
-  /* Unfix the sidebar — scroll with the rest of the page */
+  /* Make #main a positioning context so sidebar can anchor to its top */
+  #main {
+    position: relative;
+  }
+
+  /* Unfix the sidebar — scroll with the rest of the page, anchored to top */
+  /* Layout: sidebar 280 - overlap 10 + content 620 = 890 total, centered */
   .sidebar,
   .sidebar.sticky {
     position: absolute !important;
     height: auto !important;
     overflow-y: visible !important;
-    top: auto;
-    left: calc(50vw - 400px) !important;
-    width: 300px !important;
-    max-width: 300px !important;
+    top: 0 !important;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    left: calc(50vw - 445px) !important;
+    width: 280px !important;
+    max-width: 280px !important;
     padding-right: 0 !important;
+  }
+
+  .sidebar .author__avatar {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
   }
 
   /* Default (pages with author sidebar): offset content to the right of sidebar */
   .page,
   .archive {
     max-width: 620px;
-    margin-left: calc(50vw - 220px) !important;
+    margin-left: calc(50vw - 175px) !important;
     padding-right: 0 !important;
     float: none;
   }
@@ -278,18 +337,30 @@ hr.soft-divider {
 /* ===== Home (About) page: tight, compressed layout ===== */
 
 .home-content {
-  font-size: 0.82rem;
-  line-height: 1.45;
+  font-size: 0.9em;
+  line-height: 1.5;
 }
 
 .home-content p {
-  font-size: 0.82rem;
-  margin-bottom: 0.45rem;
+  font-size: 0.9em;
+  margin-bottom: 0.55rem;
 }
 
 .home-content ul li {
-  font-size: 0.82rem;
-  margin-bottom: 0.25rem;
+  font-size: 0.9em;
+  margin-bottom: 0.3rem;
+}
+
+/* Welcome headline — slightly bigger than body */
+.home-content > p:first-of-type {
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.7rem;
+}
+
+.home-content > p:first-of-type strong {
+  font-weight: 600;
 }
 
 .home-content ul {
@@ -303,7 +374,16 @@ hr.soft-divider {
 }
 
 .home-content hr.soft-divider {
-  margin: 0.9rem 0 0.7rem 0;
+  margin: 1.6rem 0 0.9rem 0;
+}
+
+/* PhD student line in author bio */
+.author__bio .bio-title {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #000;
+  display: inline-block;
+  margin-bottom: 0.2rem;
 }
 
 
@@ -314,6 +394,7 @@ hr.soft-divider {
   font-weight: 600;
   margin-top: 1rem;
   margin-bottom: 0.7rem;
+  margin-right: -4em;
   padding-bottom: 0.18rem;
   border-bottom: 1px solid #e6e6e6;
 }
@@ -380,8 +461,8 @@ hr.soft-divider {
   content: "•";
   position: absolute;
   left: 0;
-  top: -0.15rem;
-  font-size: 1.15rem;
+  top: 0.1rem;
+  font-size: 1em;
   line-height: 1.45;        /* matches h3 line-height */
   color: #666;
 }
@@ -443,7 +524,7 @@ details {
 }
 
 details summary {
-  font-size: 0.74rem;
+  font-size: 0.68rem;
   font-weight: 500;
   color: #555;
   cursor: pointer;
@@ -456,11 +537,15 @@ details[open] summary {
 
 /* Expanded text: slightly smaller than the summary, indented to align */
 details p {
-  font-size: 0.77rem;
+  font-size: 0.72rem;
   line-height: 1.6;
   padding-left: 1.1rem;   /* aligns with summary text after the triangle */
+  padding-right: 0;
+  margin-right: -4em;
   margin-top: 0.3rem;
   margin-bottom: 0.2rem;
+  text-align: justify;
+  hyphens: auto;
 }
 
 /* ===== Mobile ===== */
