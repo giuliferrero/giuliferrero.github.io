@@ -295,7 +295,8 @@ hr.soft-divider {
   }
 
   /* Unfix the sidebar — scroll with the rest of the page, anchored to top */
-  /* Layout: sidebar 280 - overlap 10 + content 620 = 890 total, centered */
+  /* Layout: sidebar 280 - overlap 10 + content 620 = 890 total */
+  /* Shifted right so Welcome (content start) aligns under "Research" nav item */
   .sidebar,
   .sidebar.sticky {
     position: absolute !important;
@@ -304,7 +305,7 @@ hr.soft-divider {
     top: 0 !important;
     padding-top: 0 !important;
     margin-top: 0 !important;
-    left: calc(50vw - 445px) !important;
+    left: calc(50vw - 580px) !important;
     width: 280px !important;
     max-width: 280px !important;
     padding-right: 0 !important;
@@ -319,7 +320,7 @@ hr.soft-divider {
   .page,
   .archive {
     max-width: 620px;
-    margin-left: calc(50vw - 175px) !important;
+    margin-left: calc(50vw - 310px) !important;
     padding-right: 0 !important;
     float: none;
   }
