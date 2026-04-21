@@ -51,7 +51,7 @@ author_profile: false
 
   <details>
     <summary>Presentations</summary>
-    <p>11th MPWZ-CEPR Text-As-Data Workshop, ESP Workshop at the Harvard Kennedy School, Graduate Workshop in Economic History at Harvard University, Harvard CID Research Xchange, Third Political Economy CCA-Cornell-Bocconi Winter Workshop (poster)</p>
+    <p>11th MPWZ-CEPR Text-As-Data Workshop (2026), ESP Workshop at the Harvard Kennedy School (2026), Graduate Workshop in Economic History at Harvard University (2026), Harvard CID Research Xchange (2026), Third Political Economy CCA-Cornell-Bocconi Winter Workshop (poster, 2025)</p>
   </details>
 
   </div> 
