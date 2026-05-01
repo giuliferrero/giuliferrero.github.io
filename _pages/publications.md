@@ -7,9 +7,6 @@ author_profile: false
 <h2 class="research-section-title">Working papers</h2>
 
 <div class="research-item">
-  <div class="research-image">
-    <img src="/images/frontcover.png" alt="Paper illustration">
-  </div>
   <div class="research-text">
 
   <h3 style="margin-top:0;">
@@ -51,7 +48,7 @@ author_profile: false
 
   <details>
     <summary>Presentations</summary>
-    <p>11th MPWZ-CEPR Text-As-Data Workshop (2026), ESP Workshop at the Harvard Kennedy School (2026), Graduate Workshop in Economic History at Harvard University (2026), Harvard CID Research Xchange (2026), Third Political Economy CCA-Cornell-Bocconi Winter Workshop (poster, 2025)</p>
+    <p>Alberto Alesina Graduate Student Workshop in Political Economy and Culture at Harvard University (2026), 11th MPWZ-CEPR Text-As-Data Workshop (2026), ESP Workshop at the Harvard Kennedy School (2026), Graduate Workshop in Economic History at Harvard University (2026), Harvard CID Research Xchange (2026), Third Political Economy CCA-Cornell-Bocconi Winter Workshop (poster, 2025)</p>
   </details>
 
   </div> 
@@ -60,10 +57,6 @@ author_profile: false
 
 
 <div class="research-item">
-  <div class="research-image">
-    <img src="/images/amaz.jpg" alt="Paper illustration" class="zoomed">
-  </div>
-
   <div class="research-text">
 
   <h3 style="margin-top:0;">
@@ -103,10 +96,6 @@ author_profile: false
 <h2 class="research-section-title">Work in progress</h2>
 
 <div class="research-item">
-
-  <div class="research-badge">
-    <i class="fa-solid fa-bookmark"></i>
-  </div>
 
   <div class="research-text">
      <h3 style="margin-top:0;">
