@@ -13,7 +13,7 @@ I am an applied micro-economist specializing in **political economy**, **media**
 
 I study how cultural norms around women evolve in response to historical shocks — wars, media, and propaganda — drawing on archival sources such as *newspapers, magazines, and movies*.
 
-I am a PhD student at the University of Turin and a PhD fellow at [Collegio Carlo Alberto](https://www.phdpareto.carloalberto.org/giulia-ferrero/), working under the supervision of [Elena Esposito](https://www.elenaesposito.com/) and [Giovanni Mastrobuoni](https://sites.google.com/site/giovannimastrobuoni/).
+I am a PhD student at the University of Turin and a PhD fellow at [Collegio Carlo Alberto](https://www.phdpareto.carloalberto.org/giulia-ferrero/).
 
 Here you can find my [**CV**](/files/CV_Ferrero_2026.pdf).
 
