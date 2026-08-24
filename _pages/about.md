@@ -19,8 +19,9 @@ Here you can find my [**CV**](/files/CV_Ferrero_2026.pdf).
 
 <hr class="soft-divider">
 
-- *May–Jul 2026* — I'll be visiting **UCLA Anderson** and **ENS Lyon**.
-- *Jan–Apr 2026* — Visiting the **Center for International Development (Harvard Kennedy School)** as [CID Visiting Researcher Fellow](https://www.hks.harvard.edu/centers/cid/about-cid/jobs-opportunities/cid-visiting-researcher-program).
+- *Jul 2026* — I was awarded the **Young Economist Best Presentation Award** at the 2026 [Economics Job Market Bootcamp](https://www.tommasosonno.com/jmb.html).
+- *May–Jul 2026* — I visited **UCLA Anderson** and **ENS Lyon**.
+- *Jan–Apr 2026* — I visited the **Center for International Development (Harvard Kennedy School)** as [CID Visiting Researcher Fellow](https://www.hks.harvard.edu/centers/cid/about-cid/jobs-opportunities/cid-visiting-researcher-program).
 - *2025* — My Job Market Paper *Wartime Narratives and Gender Norms* was awarded the [Mixtape Fellowship](https://www.mixtapesessions.io/about/).
 
 </div>
