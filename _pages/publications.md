@@ -69,6 +69,10 @@ author_profile: false
 
 
  <p class="venue">
+    Draft: <a href="https://drive.google.com/file/d/1rLRQH_WGN8eHO-3CByUtbK3oE6uXS2qk/view" target="_blank" rel="noopener">available here</a>
+  </p>
+
+ <p class="venue">
     Awarded the Grigor Artsruni Award at the Armenian Economic Association Conference (Yerevan)
   </p>
 
