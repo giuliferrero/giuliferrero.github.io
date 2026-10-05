@@ -42,18 +42,13 @@
 ;
 
 
-/* ===== Typography ===== */
-/* Body → Inter (clean sans) */
-/* Headings → Instrument Serif (editorial) */
+/* ===== Typography: Inter everywhere ===== */
 
 html, body,
 p, a, li, span, div,
 .page, .archive,
 .author__bio, .author__urls,
-.masthead, .greedy-nav, .greedy-nav a,
-.research-text p,
-.coauthors, .venue,
-details summary, details p {
+.masthead, .greedy-nav, .greedy-nav a {
   font-family: "Inter", -apple-system, BlinkMacSystemFont,
                "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
@@ -71,6 +66,26 @@ a {
 a:hover,
 a:focus {
   color: $petrol-dark;
+}
+
+/* All site sizes are rem/em-based, so this scales every text size proportionally
+   (theme default: 16px, 18px from 768px up) */
+html {
+  font-size: 17px;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+body {
+  color: #2f3336;
+}
+
+a:focus-visible {
+  outline: 2px solid $petrol;
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
 .page__content a,
@@ -114,6 +129,11 @@ h4 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: none;
   margin-bottom: 1cm;
+}
+
+/* Menu items have a white theme background that overlaps the border by a sub-pixel */
+.masthead__menu-item {
+  background: transparent;
 }
 
 .greedy-nav {
@@ -209,6 +229,10 @@ hr.soft-divider {
   border-radius: 50%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+  padding: 0;
+  border: none;
+  display: block;
+  margin: 0 auto;
 }
 
 .sidebar .author__avatar,
@@ -249,6 +273,16 @@ hr.soft-divider {
   padding-left: 0;
   margin-top: 0.9rem;
   list-style: none;
+  /* Theme renders this as a popup below 925px; keep it an inline row */
+  position: static !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.author__urls::before,
+.author__urls::after {
+  display: none !important;
 }
 
 /* Hide all list items by default, then show only the ones we want */
@@ -286,29 +320,34 @@ hr.soft-divider {
 
 /* ===== Centered layout: sidebar + content as one centered block ===== */
 
+/* Widths are in rem so the columns grow with the text and line length stays constant */
 @media screen and (min-width: 1024px) {
-  /* Total desired layout width: 300 (sidebar) - 120 (overlap) + 620 (content) = 800 */
-
-  /* Make #main a positioning context so sidebar can anchor to its top */
   #main {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.5rem;
+    max-width: none;
   }
 
-  /* Unfix the sidebar — scroll with the rest of the page, anchored to top */
-  /* Layout: sidebar 280 - overlap 10 + content 620 = 890 total */
-  /* Shifted right so Welcome (content start) aligns under "Research" nav item */
+  /* Theme clearfix pseudo-elements would otherwise become flex items */
+  #main::before,
+  #main::after {
+    display: none;
+  }
+
+  /* Unfix the sidebar so it scrolls with the page */
   .sidebar,
   .sidebar.sticky {
-    position: absolute !important;
-    height: auto !important;
-    overflow-y: visible !important;
-    top: 0 !important;
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    left: calc(50vw - 580px) !important;
+    position: static !important;
+    flex: 0 0 280px;
     width: 280px !important;
     max-width: 280px !important;
-    padding-right: 0 !important;
+    height: auto !important;
+    overflow-y: visible !important;
+    float: none;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   .sidebar .author__avatar {
@@ -316,22 +355,21 @@ hr.soft-divider {
     padding-top: 0 !important;
   }
 
-  /* Default (pages with author sidebar): offset content to the right of sidebar */
   .page,
   .archive {
-    max-width: 620px;
-    margin-left: calc(50vw - 310px) !important;
-    padding-right: 0 !important;
+    flex: 0 1 34rem;
+    max-width: 34rem;
+    width: auto;
+    margin: 0 !important;
+    padding: 0 !important;
     float: none;
   }
 
-  /* Pages without author sidebar (e.g. Research): center content */
-  #main:not(:has(.sidebar .author__avatar)) .page,
-  #main:not(:has(.sidebar .author__avatar)) .archive {
-    max-width: 720px;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    float: none;
+  /* Pages without author sidebar (e.g. Research) */
+  #main:not(:has(.sidebar)) .page,
+  #main:not(:has(.sidebar)) .archive {
+    flex-basis: 46rem;
+    max-width: 46rem;
   }
 }
 
@@ -388,185 +426,134 @@ hr.soft-divider {
 }
 
 
-/* ===== Research page: section titles ===== */
+/* ===== Research page ===== */
 
 .research-section-title {
-  font-size: 0.92rem;
-  font-weight: 600;
-  margin-top: 1rem;
-  margin-bottom: 0.7rem;
-  margin-right: -4em;
-  padding-bottom: 0.18rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-bottom: 1.1rem;
+  padding-bottom: 0.35rem;
   border-bottom: 1px solid #e6e6e6;
 }
 
-/* ===== Research items: layout ===== */
+.research-section-title ~ .research-section-title {
+  margin-top: 2.6rem;
+}
 
-.research-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.5rem;
-  margin-bottom: 2.2rem;
+.paper {
+  padding-left: 0.8rem;
   font-size: 0.82rem;
-  line-height: 1.5;
-}
-
-/* ===== Left column: image OR bookmark ===== */
-
-.research-image,
-.research-badge {
-  width: 155px;
-  height: 155px;
-  flex-shrink: 0;
-  border-radius: 7px;
-  overflow: hidden;        /* crops images cleanly */
-  background: #fafafa;
-  border: 1px solid #e6e6e6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0.2rem;
-}
-
-/* Images: same size, softer colors */
-.research-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(0.95) saturate(0.8);
-}
-
-/* Use on images with white borders baked in — zooms to crop them */
-.research-image img.zoomed {
-  transform: scale(1.12);
-  transform-origin: center;
-}
-
-
-/* Bookmark icon — scales with the badge */
-.research-badge i {
-  font-size: 2.1rem;
-  color: #888;
-}
-
-/* ===== Text column ===== */
-
-.research-text {
-  flex: 1;
-  position: relative;
-  padding-left: 1.1rem;   /* space for dot */
-}
-
-/* Dot aligned with title baseline */
-.research-text::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  top: 0.1rem;
-  font-size: 1em;
-  line-height: 1.45;        /* matches h3 line-height */
-  color: #666;
-}
-
-/* Titles */
-.research-text h3 {
-  font-size: 0.94rem;
-  font-weight: 500;
-  line-height: 1.45;
-  margin-top: 0;
-  margin-bottom: 0.15rem;
-}
-
-.research-text h3 span.jmp {
-  font-weight: 400;
-  font-size: 0.9em;
-  color: #666;
-}
-
-
-/* Paragraph spacing */
-.research-text p {
-  margin-bottom: 0.25rem;
-}
-
-/* Coauthors */
-.coauthors {
-  font-size: 0.76rem;
-  color: #666;
-  margin-top: -0.05rem;
-  margin-bottom: 0.25rem;
-}
-
-.coauthors a {
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 1px dotted #bbb;
-}
-
-.coauthors a:hover {
-  border-bottom-style: solid;
-  border-bottom-color: #666;
-}
-
-/* Venue / awards */
-.venue {
-  font-size: 0.7rem;
-  font-style: italic;
-  color: #888;
-  margin-top: 0.1rem;
-  margin-bottom: 0.3rem;
-}
-
-
-/* ===== Abstract / Presentations toggles ===== */
-
-details {
-  margin-top: 0.02rem;
-}
-
-details summary {
-  font-size: 0.68rem;
-  font-weight: 500;
-  color: #555;
-  cursor: pointer;
-  padding: 0.15rem 0;
-}
-
-details[open] summary {
-  color: #333;
-}
-
-/* Expanded text: slightly smaller than the summary, indented to align */
-details p {
-  font-size: 0.72rem;
   line-height: 1.6;
-  padding-left: 1.1rem;   /* aligns with summary text after the triangle */
-  padding-right: 0;
-  margin-right: -4em;
-  margin-top: 0.3rem;
-  margin-bottom: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.paper p {
+  margin: 0 0 0.3rem 0;
+}
+
+.paper-title {
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 0.25rem 0;
+}
+
+.paper-authors {
+  font-style: italic;
+  color: #555;
+}
+
+.paper-authors a {
+  color: inherit;
+}
+
+.paper-note {
+  font-size: 0.92em;
+  color: #666;
+}
+
+.paper p.paper-abstract {
+  font-size: 0.92em;
+  line-height: 1.5;
   text-align: justify;
   hyphens: auto;
+  padding-left: 0.9rem;
+  margin-top: 0.55rem;
+  margin-bottom: 0.55rem;
 }
 
-/* ===== Mobile ===== */
+.paper p.paper-links {
+  margin-top: 0.5rem;
+}
 
-@media (max-width: 768px) {
-  .research-section-title {
-    font-size: 0.95rem;
+.page__content a.paper-btn,
+a.paper-btn {
+  display: inline-block;
+  font-size: 0.85em;
+  font-weight: 500;
+  line-height: 1;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid rgba(94, 140, 100, 0.5);
+  border-radius: 999px;
+  color: $petrol;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.page__content a.paper-btn:hover,
+a.paper-btn:hover {
+  background-color: $petrol;
+  border-color: $petrol;
+  color: #fff;
+}
+
+a.paper-btn i {
+  margin-right: 0.25rem;
+}
+
+.paper-details {
+  font-size: 0.92em;
+  line-height: 1.5;
+  color: #444;
+  padding-left: 1.1rem;
+  margin: 0 0 0 0.9rem;
+}
+
+.paper-details li {
+  margin-bottom: 0.25rem;
+}
+
+/* ===== Mobile / tablet ===== */
+
+@media (max-width: 1023px) {
+  /* Stack photo, bio and icons centered instead of the theme's floated row */
+  .sidebar,
+  .sidebar > *,
+  .sidebar div.author__avatar,
+  .sidebar .author__content,
+  .sidebar .author__bio,
+  .sidebar .author__urls-wrapper {
+    display: block;
+    float: none;
+    width: 100% !important;
+    max-width: none !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 
-  .research-item {
-    gap: 1rem;
+  /* The theme gives the <img> the same author__avatar class as its wrapper */
+  .sidebar img.author__avatar,
+  .sidebar .author__avatar img {
+    display: block;
+    width: 140px;
+    max-width: 140px;
+    margin: 0 auto;
   }
 
-  .research-image,
-  .research-badge {
-    width: 115px;
-    height: 115px;
-  }
-
-  .research-badge i {
-    font-size: 1.6rem;
+  .sidebar {
+    margin-bottom: 1.5rem;
   }
 }
