@@ -19,7 +19,7 @@ Here you can find my [**CV**](/files/CV_Ferrero_2026.pdf).
 
 <hr class="soft-divider">
 
-- *Jul 2026* — I was awarded the **Young Economist Best Presentation Award** at the 2026 [Economics Job Market Bootcamp](https://www.tommasosonno.com/jmb.html).
+- *Jul 2026* — I was awarded the **2026 Young Economist Best Presentation Award** at the [Economics Job Market Bootcamp](https://www.tommasosonno.com/jmb.html).
 - *Jan–Jul 2026* — I visited the **Center for International Development (Harvard Kennedy School)** as [CID Visiting Researcher Fellow](https://www.hks.harvard.edu/centers/cid/about-cid/jobs-opportunities/cid-visiting-researcher-program), **UCLA Anderson** and **ENS Lyon**.
 - *2025* — My Job Market Paper *Wartime Narratives and Gender Norms* was awarded the [Mixtape Fellowship](https://www.mixtapesessions.io/about/).
 

@@ -12,6 +12,8 @@ author_profile: false
 
   <p class="paper-note">Awarded the 2025 Mixtape Fellowship by Scott Cunningham</p>
 
+  <p class="paper-note">Awarded the 2026 Young Economist Best Presentation Award</p>
+
   <p class="paper-abstract" lang="en">
     Governments have long used mass media narratives as a policy tool to
     shape social norms and behavior, yet causal evidence on the effects of
