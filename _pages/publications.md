@@ -10,9 +10,7 @@ author_profile: false
 
   <h3 class="paper-title">Wartime Narratives and Gender Norms</h3>
 
-  <p class="paper-note">Awarded the 2025 Mixtape Fellowship by Scott Cunningham</p>
-
-  <p class="paper-note">Awarded the 2026 Young Economist Best Presentation Award</p>
+  <p class="paper-note">Awarded the 2026 Young Economist Best Presentation Award, the 2025 Mixtape Fellowship by Scott Cunningham</p>
 
   <p class="paper-abstract" lang="en">
     Governments have long used mass media narratives as a policy tool to
