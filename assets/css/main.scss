@@ -53,10 +53,10 @@ p, a, li, span, div,
                "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* ===== Accent color (petrol blue-green) ===== */
+/* ===== Accent color (black and white) ===== */
 
-$petrol: #5e8c64;
-$petrol-dark: #44663f;
+$petrol: #000;
+$petrol-dark: #666;
 
 a {
   color: $petrol;
@@ -91,7 +91,7 @@ a:focus-visible {
 .page__content a,
 .home-content a {
   text-decoration: none;
-  border-bottom: 1px solid rgba(94, 140, 100, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   transition: border-color 0.15s ease;
 }
 
@@ -495,7 +495,7 @@ a.paper-btn {
   font-weight: 500;
   line-height: 1;
   padding: 0.3rem 0.65rem;
-  border: 1px solid rgba(94, 140, 100, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 999px;
   color: $petrol;
   text-decoration: none;

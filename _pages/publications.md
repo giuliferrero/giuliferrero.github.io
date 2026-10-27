@@ -13,29 +13,28 @@ author_profile: false
   <p class="paper-note">Awarded the 2026 Young Economist Best Presentation Award, the 2025 Mixtape Fellowship by Scott Cunningham</p>
 
   <p class="paper-abstract" lang="en">
-    Governments have long used mass media narratives as a policy tool to
-    shape social norms and behavior, yet causal evidence on the effects of
-    such interventions remains scarce. This paper studies the case of the
-    U.S. government's coordinated media campaigns during World War II,
-    which deliberately reshaped the public image of women to address
-    wartime labor shortages. I construct a new dataset combining historical
-    newspapers with a newly digitized archive of women's magazines, which
-    allows to trace changes in representations of women before, during,
-    and after the war. Exploiting local variation in war-induced labor
-    shortages and using an event-study design, I document a pronounced
-    wartime shift toward portraying women as workers, followed by a rapid
-    reversal once the war ended. While this narrative was short-lived,
-    areas more exposed to wartime pressures experienced a persistent
-    increase in the visibility of women in public discourse. To isolate
-    the causal effect of media narratives from local labor market
-    conditions, I combine historical survey data with a shift-share
-    strategy based on magazine circulation and national changes in
-    content. Exposure to wartime narratives significantly shaped postwar
-    attitudes toward women's roles and political participation, with
-    effects that outlasted the economic shock itself. The results suggest
-    that institutional messaging can rapidly reshape social narratives,
-    even in non-authoritarian settings, with unintended consequences that
-    may persist beyond the original shock.
+    Governments have long used mass-media narratives as a policy tool to
+    shape social norms and behavior, yet evidence on the effects of such
+    interventions remains scarce. I study the U.S. government's
+    coordinated media campaigns during World War II, which deliberately
+    reshaped the public image of women to address wartime labor
+    shortages. Combining historical newspapers with a newly digitized
+    archive of women's magazines, I document a pronounced wartime shift
+    toward portraying women as workers, concentrated in areas with
+    greater labor shortages and reversed once the war ended. Newspapers
+    in these counties, however, kept writing about women more often
+    after the war. To separate exposure to the narrative from local
+    labor conditions, I combine national changes in magazine content
+    with prewar circulation. Exposure had no lasting effect on the
+    campaign's target, female labor force participation, but is
+    associated with a larger role for women in public life: a
+    one-standard-deviation increase raises the probability that a county
+    elects a woman to its state legislature by 1.7 percentage points,
+    50% of the prewar mean. Gallup surveys show persistently greater
+    acceptance of women in public office, but only a brief rise in
+    acceptance of women's employment. Institutional messaging can
+    rapidly reshape social narratives, with unintended consequences that
+    outlast the original shock.
   </p>
 
   <ul class="paper-details">
